@@ -1,0 +1,31 @@
+input {
+  display: block;
+  width: 75%;
+  padding: 12px 20px;
+  margin: 2% auto;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding: 1%;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.car-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cars {
+  min-width: 250px;
+  min-height: 125px;
+  margin: 2.5% 2.5%;
+}
